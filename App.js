@@ -39,6 +39,13 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+      <View style={styles.title}>
+      <Text style={styles.titleText}>Abdelrahman Tealab</Text>
+      <Text style={styles.titleText}>ID: 301164103</Text>
+      <Text style={styles.titleText}>Web Techs Assignment 1</Text>
+      <Text style={styles.titleText}>BMI Calculator</Text>
+
+      </View>
 
       <View style={styles.rowView}>
         <Text style={styles.buttonText}>kg/cm</Text>
@@ -84,6 +91,17 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
+  titleText:{
+    color: '#636364',
+    fontSize: 19,
+    textAlign: "center",
+    fontFamily:'Avenir'
+  },
+  title:{
+    bottom: 200,
+    paddingHorizontal: 100,
+    backgroundColor: '#fffadd'
+  },
   container: {
     flex: 1,
     backgroundColor: '#636364',
